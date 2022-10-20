@@ -8,14 +8,50 @@
 	margin: 0;
 	padding: 0;
 }
+header {
+	display: flex;
+	justify-content: center;
+}
+img {
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+	align-items: center;
+}
+fieldset {
+    border: none;
+
+    display: flex;
+
+    align-items: center;
+	text-align: center;
+
+	color: white;
+
+	margin-top: 1rem;
+    
+}
 
 body {
 	font-family: "Roboto", sans-serif;
-	background-color: #87e9a9;
+	background-color: #121312;
 	background-image: url("./img/Playlist-rafiki.svg");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	overflow: hidden;
 }
+
+
+h2{
+	color: white;
+	text-align: center;
+}
+
+title{
+	text-align: right;
+	
+}
+
 
 /* Utility Classes */
 .btn-primary {
@@ -43,7 +79,6 @@ body {
 /* Navbar */
 #navbar {
 	display: flex;
-	background-color: #87e9a9;
 	color: white;
 	justify-content: center;
 	position: fixed;
@@ -83,27 +118,31 @@ body {
 #showcase {
 	height: 100vh;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
 	color: rgb(249, 249, 249);
 	background: url("/img/showcase.webp") center center/cover;
-	background-color: rgba(0, 0, 0, 0.4);
 	background-blend-mode: color;
 }
 
-#showcase .showcase-container {
+.showcase-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-right: 5rem;
 }
 
-#showcase .showcase-container h2 {
-	font-size: 5rem;
-}
 
 #showcase .showcase-container p {
 	margin: 15px 0;
-	font-size: 1.1rem;
+	font-size: 2.1rem;
+	align-items: right;
+}
+
+.btn-primary{
+
+	color:black;
+	text-align: right;
 }
 
 /* Footer */
