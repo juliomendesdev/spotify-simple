@@ -1,0 +1,61 @@
+header {
+    border-right: 1px solid gray;
+    width: 15rem;
+    height: 100vh;
+}
+img {
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
+fieldset {
+    border: none;
+    display: flex;
+    align-items: center;
+    
+}
+.menu {
+    font-size: 15px;
+    margin-top: 1rem;
+}
+.navbar-list {
+    margin-top: 3rem;
+}
+.second-menu {
+    margin-top: 1rem;
+}
+h1 {
+    color: white;
+    border: white;
+}
+body {
+    background-color: black;
+    display: flex;
+}
+main {
+    width: 100vw;
+}
+.title {
+    font-size: 25px;
+    color: white;
+    margin-left: 1rem;
+}
+.albuns {
+    display: flex;
+    border-top: 1px solid gray;
+
+}
+.album {
+    width: 150px;
+    height: 150px;
+    margin-top: 3rem;
+
+    border: 1px solid white;
+    border-radius: 6px;
+
+    margin: 2rem;
+}
+span {
+    color: white;
+}
+
