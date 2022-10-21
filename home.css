@@ -3,7 +3,7 @@ header {
     width: 15rem;
     height: 100vh;
 }
-img {
+.logo {
     width: 30px;
     height: 30px;
     margin-right: 1rem;
@@ -26,8 +26,8 @@ fieldset {
 }
 h1 {
     color: white;
-    border: white;
 }
+
 body {
     background-color: black;
     display: flex;
@@ -42,9 +42,9 @@ main {
 }
 .albuns {
     display: flex;
-    border-top: 1px solid gray;
-
+    border: 1px solid rgb(27, 25, 25);
 }
+
 .album {
     width: 150px;
     height: 150px;
@@ -54,6 +54,9 @@ main {
     border-radius: 6px;
 
     margin: 2rem;
+}
+.href-size:hover{
+    transform: scale(1.1);  
 }
 span {
     color: white;
