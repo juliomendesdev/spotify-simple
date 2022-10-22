@@ -61,4 +61,8 @@ main {
 span {
     color: white;
 }
-
+audio {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
