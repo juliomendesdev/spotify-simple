@@ -61,7 +61,7 @@ main {
 span {
     color: white;
 }
-audio {
+.player {
     display: flex;
     align-items: baseline;
     justify-content: flex-end;
